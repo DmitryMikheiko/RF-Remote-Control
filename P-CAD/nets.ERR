@@ -1,0 +1,66 @@
+P-CAD Net List Load Errors
+
+======================================================================
+
+Netlist filename: F:\дима\конструирование\микросхемы\Piс\—хемы и литература\RF Remote Control\nets.net
+Warning: Net NET00052 has less than two nodes.
+Warning: Net NET00050 has less than two nodes.
+Warning: Net NET00053 has less than two nodes.
+Warning: Net NET00054 has less than two nodes.
+Warning: Net NET00055 has less than two nodes.
+Warning: Net NET00069 has less than two nodes.
+Warning: Net NET00070 has less than two nodes.
+SHORTED NETS:
+
+
+Net List Errors:   0
+Net List Warnings: 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+01-Feb-17  01:08                                            Page    1
+

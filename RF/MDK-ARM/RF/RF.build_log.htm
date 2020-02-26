@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Dm Microsoft, Microsoft, LIC=UB445-GDPI4-AUE4J-U8F16-E3BTT-77M3G
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.22
+Toolchain Path:  C:\Program Files (x86)\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+F:\MC\STM\CubeMX\RF\MDK-ARM\RF.uvprojx
+Project File Date:  06/15/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Program Files (x86)\Keil5\ARM\ARMCC\Bin'
+Build target 'RF'
+compiling main.c...
+../Inc/NRF24L01.h(38): warning:  #1-D: last line of file ends without a newline
+  void SetRxAddr(uint8_t *addr);
+../Inc/UWB.h(18): warning:  #1-D: last line of file ends without a newline
+  void SendCmd(uint8_t cmd);
+../Src/UWB.c(5): warning:  #1-D: last line of file ends without a newline
+  }
+../Src/main.c(388): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+CD_POWER_GPIO_Port,
+CD_POWER_Pin,0);
+../Src/main.c(389): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(
+F_MODULE_POWER_GPIO_Port,
+F_MODULE_POWER_Pin,0);
+../Src/main.c(827): warning:  #177-D: variable "DeviceInfoShow"  was declared but never referenced
+  	bool DeviceInfoShow=false;
+../Src/main.c(861): warning:  #177-D: variable "str"  was declared but never referenced
+  	char str[3];
+../Src/main.c(883): warning:  #177-D: variable "ch_desc"  was declared but never referenced
+  	void* ch_desc;
+../Src/main.c(1483): warning:  #550-D: variable "size"  was set but never used
+  	u8 size;
+../Src/main.c(1648): warning:  #550-D: variable "ChannelSize"  was set but never used
+  	u16 ChannelSize;
+../Src/main.c(1794): warning:  #177-D: variable "bytes"  was declared but never referenced
+  	u8 bytes[4];
+../Src/main.c(1806): warning:  #177-D: variable "bytes"  was declared but never referenced
+  	u8 bytes[4];
+../Src/main.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=19792 RO-data=4924 RW-data=1008 ZI-data=8312  
+"RF\RF.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\MC\STM\CubeMX\RF\MDK-ARM\RTE\_RF
+  C:\Program Files (x86)\Keil5_pack\ARM\CMSIS\5.0.0\CMSIS\Include
+  C:\Program Files (x86)\Keil5_pack\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
